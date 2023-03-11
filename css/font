@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -86,7 +86,7 @@ html{
     justify-content: center;
     align-items: center;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:  sans-serif;
     max-width: 50%;
     margin: auto;
     height: 80%;
@@ -125,7 +125,7 @@ html{
 .text-big {
     font-size: 39px;
     font-style: italic;
-    font-family: cursive;
+    font-family: Sans-serif;
     color: orange;
     padding: 5px 2px
 }
@@ -193,14 +193,14 @@ padding-top: 60px;
     display: flex;
     padding: 0px 60px;
     font-size: 18px;
-    font-family: 'Dancing Script', cursive;
+    font-family: Sans-serif;
 }
 
 .text-topic{
     font-size: 30px;
     padding: 22px 68px;
     display: flex;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Sans-serif;
     color: rgb(255, 142, 127);
 }
 
