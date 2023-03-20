@@ -1,0 +1,262 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: sticky;
+    top: 0;
+
+
+}
+
+
+.nav-list {
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+
+}
+
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: goldenrod;
+
+}
+
+
+.rightNav {
+
+    width: 50%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search {
+
+    padding: 5px;
+    font-size: 17px;
+    border: 2px saddlebrown;
+    border-radius: 9px;
+}
+
+.background {
+
+    background: rgba(0, 0, 0, 0.7) url('../img/bckg.jpg');
+    background-blend-mode: darken;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:  sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
+}
+
+.firstsection {
+
+    height: 100vh;
+}
+
+.firsthalf {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+
+}
+
+.secondhalf {
+    width: 30%;
+
+}
+
+
+.secondhalf img {
+    width: 100%;
+    padding: 4px 0;
+    border: 4px white;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 39px;
+    font-style: italic;
+    font-family: Sans-serif;
+    color: orange;
+    padding: 5px 2px
+}
+.secright{
+padding-top: 60px;
+}
+
+.text-small {
+    font-size: 15px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    background : none;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-sm{
+
+    padding: 6px 10px;
+    background: antiquewhite;
+    border: 10ch;
+    border-radius: 10px;
+}
+
+.sectiontag{
+    text-align: left;
+    font-size: 30px;
+    padding: 0px 45px;
+    font-family: cursive;
+    
+}
+
+.subtag{
+    padding: 6px 62px;
+    font-size: 20px;
+ 
+}
+
+.Thumbnail img{
+    width: 324px;
+    display: flex;
+    
+    border: 0px solid black;
+    border-radius: 50px;
+}
+
+.sectionnew{
+
+    display: flex;
+    padding: 45px 11px;
+}
+
+.text-smallM{
+
+    display: flex;
+    padding: 0px 60px;
+    font-size: 18px;
+    font-family: Sans-serif;
+}
+
+.text-topic{
+    font-size: 30px;
+    padding: 22px 68px;
+    display: flex;
+    font-family: Sans-serif;
+    color: rgb(255, 142, 127);
+}
+
+.contactt{
+    background:rgb(236, 236, 236);
+    height: 34vh;
+}
+
+.text-contact{
+ text-align: center;
+}
+
+.form{
+   padding-left: 550px;
+   border-radius: 20px;
+   padding-top: 10px;
+
+
+}
+
+
+
+.btm{
+    padding: 5px 30px;
+    margin: 13px 577px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 10px;
+    cursor: pointer;
+    color: black;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+   
+
+.form-input{
+    align-items: center;
+    align-content: center;
+    margin: 10px 540px;
+}
+
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+   
+}
+
+.text-area{
+
+    padding: 8px 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 10px;
+}
