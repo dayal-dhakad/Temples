@@ -35,9 +35,15 @@ html{
 
 .nav-list {
     width: 50%;
-
+    font-family: cursive;
     display: flex;
     align-items: center;
+}
+
+.subtag a{
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
 }
 
 .nav-list li {
@@ -135,7 +141,7 @@ padding-top: 60px;
 
 .text-small {
     font-size: 15px;
-    font-family: 'Dancing Script', cursive;
+    font-family: cursive;
 
 }
 
@@ -177,9 +183,8 @@ padding-top: 60px;
 .Thumbnail img{
     width: 324px;
     display: flex;
-    
     border: 0px solid black;
-    border-radius: 50px;
+    border-radius: 20px;
 }
 
 .sectionnew{
@@ -193,15 +198,15 @@ padding-top: 60px;
     display: flex;
     padding: 0px 60px;
     font-size: 18px;
-    font-family: 'Dancing Script', cursive;
+    font-family: cursive;
 }
 
 .text-topic{
     font-size: 30px;
     padding: 22px 68px;
     display: flex;
-    font-family: 'Times New Roman', Times, serif;
-    color: rgb(255, 142, 127);
+    font-family: cursive;
+    color: orange;
 }
 
 .contactt{
